@@ -1,0 +1,98 @@
+/* CSS Document */
+            /* Defines outer layout */
+            body 
+            {
+                background-color: #ccd8ff;
+                background-repeat: no-repeat;
+                background-attachment: fixed;
+                min-height: 500px;
+                
+                /* Defines fonts for everything in body */
+                font-size: 100%;
+                font-family: Arial;
+            }
+            
+            /* Defines inner layout */
+            #inner
+            {
+                   background-color: #ccd8ff;
+                   border: 2px solid black;
+                   border-radius: 20px;
+                   margin: auto;
+                   min-height: 400px;
+                   height: auto;
+                   height: 99%;
+                   width: 99%;
+            }
+            
+            h1 {
+                font-weight: bolder;
+            }
+            
+            h3 {
+                padding: 0px 10px;
+            }
+            
+             /* Pads paragraphs so they do not overlap border */
+            p {
+                padding: 0px 10px;
+            }
+            
+            table
+            {
+                margin: 20px;
+                border-collapse: collapse;
+                min-width: 30%;
+            }
+
+            table, th, td 
+            {
+                padding: 5px;
+                border: 1px solid black;
+            }
+            
+              /* Sets image properties */
+            img {
+                display: block;
+                margin: auto;
+                max-width:400px;
+                border-radius: 10px;
+                width: 70%;
+
+            }
+            
+            a:hover {
+                color: white;
+            }
+            
+            /* Hides spinner from number input */
+            input[type=number] 
+            {
+                -moz-appearance:textfield;
+            }
+            
+            input[type=checkbox] 
+            {
+                margin-top:5px;
+            }
+            
+            /*Changes certain inputs to match the background and have a border
+            input[type=text], input[type=number], input[type=checkbox], input[type=radio]
+            {
+                background-color: #C6D9F0;
+                border: 2px solid black;
+            }*/ 
+            
+            input[type=image]
+            {
+                display: block;
+                margin: auto;
+                width: 190px;
+                height: 70px;
+                margin-top: -10px;
+            }
+    
+            p label {
+                display: inline-block;
+                width: 130px;
+            }
